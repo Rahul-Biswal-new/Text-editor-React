@@ -30,3 +30,8 @@ export default function Navbar(props) {
     </div>
   )
 }
+
+Navbar.defaultProps ={
+    title: "set title here",
+    Abouttext: "about text here"
+}
