@@ -1,7 +1,9 @@
+import { useState } from "react"
 import React from 'react'
 
 export default function Navbar(props) {
     // const title = props;
+    const [color, setcolor] = useState("dark");
   return (
     <div>
         <nav className="navbar navbar-expand-lg bg-light">
