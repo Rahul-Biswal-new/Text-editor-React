@@ -55,7 +55,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>Text utils gives a way to analyze your text.</strong> quickly and
+              <strong>Text editor gives a way to analyze your text.</strong> quickly and
                efficiently. Be it word count , character count or
             
             </div>
@@ -82,7 +82,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>Text util is free character counter tool</strong>that provides
+              <strong>Text editor is free character counter tool</strong>that provides
               instant character count and word count statistic for a given text.  
               text utils gives the numbers of word and characters. Thus it is 
               suitable for writing text with word/ vharacter limit.

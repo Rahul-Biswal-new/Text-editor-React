@@ -21,7 +21,7 @@ function App() {
     document.body.classList.remove('bg-light');
     document.body.classList.remove('bg-dark');
     document.body.classList.remove('bg-warning');
-    document.body.classList.remove('bg-danger');
+    document.body.classList.remove('bg-danger');  
     document.body.classList.remove('bg-success');
   }
   const toggleMode = (cls) => {
@@ -49,7 +49,7 @@ function App() {
   return (
     <div>
       <Navbar
-        title="Textutils"
+        title="Text Editor"
         Abouttext="about"
         mode={Mode}
         toggleMode={toggleMode}
